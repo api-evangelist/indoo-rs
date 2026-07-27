@@ -1,7 +1,29 @@
 aid: indoo-rs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/indoo-rs.png
 name: Indoo Rs
-description: Indoo Rs is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  indoo.rs (indoo.rs GmbH) was a Vienna, Austria based Indoor Positioning System
+  (IPS) startup founded in 2010 that built indoor mapping, localization, and
+  routing technology plus a mobile SDK for developers and device manufacturers.
+  Its solution combined Wi-Fi, BLE/iBeacon, sensor fusion, and dead-reckoning
+  (SLAM-style) navigation to deliver real-time indoor positioning with accuracy
+  down to roughly two meters. Backed early by Speedinvest, indoo.rs was acquired
+  by Esri on February 28, 2019; its software became part of Esri's ArcGIS Indoors
+  and its Vienna headquarters became the Esri R&D Center Vienna focused on IPS.
+  The indoo.rs domain now redirects to the ArcGIS Indoors product, and the company
+  no longer operates an independent public API or developer portal. This profile
+  was surfaced as a Speedinvest portfolio company and enriched from public sources.
 url: https://raw.githubusercontent.com/api-evangelist/indoo-rs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,39 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: esri
+x-acquired-date: '2019-02-28'
+x-successor-product: ArcGIS Indoors
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Indoor Positioning
+- IPS
+- Indoor Mapping
+- Geospatial
+- GIS
+- Location
+- Wayfinding
+- SDK
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://www.esri.com/en-us/arcgis/products/arcgis-indoors/overview
+  name: ArcGIS Indoors (indoo.rs successor)
+- type: Documentation
+  url: https://www.esri.com/en-us/arcgis/products/arcgis-indoors/resources
+  name: ArcGIS Indoors Resources
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
