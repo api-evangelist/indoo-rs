@@ -35,7 +35,7 @@ x-status: acquired
 x-acquired-by: esri
 x-acquired-date: '2019-02-28'
 x-successor-product: ArcGIS Indoors
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
